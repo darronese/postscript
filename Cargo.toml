@@ -1,11 +1,6 @@
 [package]
-name = "hw4"
+name = "ps-interpreter"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-wasm-bindgen = "0.2"
-
-[lib]
-path = "src/lib.rs"  # Explicitly specifying the location of lib.rs
-crate-type = ["cdylib", "rlib"]
