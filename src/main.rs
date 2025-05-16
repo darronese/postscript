@@ -1,8 +1,8 @@
 mod interpreter;
 
-use interpreter::Interpreter;
-use object::PSObject;
-use stack::Stack;
+use interpreter::interpreter::Interpreter;
+use interpreter::object::PSObject;
+use interpreter::stack::Stack;
 
 // bring in rust's io
 use std::io::{self, Write};
